@@ -23,7 +23,7 @@ const jobTitles = [
     'quality assurance engineer manual testing',
     'quality assurance engineer',
     'software quality assurance engineer',
-    'senior qa engineer',
+    'senior qa engineer'
 ];
 
 const locations = [
