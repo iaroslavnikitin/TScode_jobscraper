@@ -7,7 +7,7 @@ const { jobTitles, locations } = require('../utils/config');
 // Main function
 async function scrapeJobs() {
     const browser = await chromium.launch({
-        headless: false,
+        headless: true,
         slowMo: 100
     });
     const context = await browser.newContext({
