@@ -1,0 +1,16 @@
+TScode_jobscraper/
+│
+├── features/
+│   ├── step_definitions/
+│   └── support/
+│
+├── pageobject/
+│   ├── DicePage.js
+│   └── POManager.js
+│
+├── tests/
+│   └── main.js        ← only orchestrates flow now
+│
+├── utils/
+│   ├── jobConfig.js   ← job titles & locations
+│   └── fileUtils.js   ← getFormattedDate & saveToCSV
